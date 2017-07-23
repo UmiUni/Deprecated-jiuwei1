@@ -100,7 +100,7 @@ def tuling_reply(msg):
       sleep(0.5)
     elif "10" in msgText:
       itchat.send_msg('正在加载请耐心等候...', CurUserName)
-      r = itchat.send('@img@1.jpeg', CurUserName)
+      r = itchat.send('@img@2.jpeg', CurUserName)
       sleep(0.5)
     itchat.send_msg(vT, CurUserName)
     sleep(0.5)
