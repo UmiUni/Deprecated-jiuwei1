@@ -72,31 +72,31 @@ def tuling_reply(msg):
     msgText = msg['Text']
     
     if "1" in msgText and ("10" not in msgText) and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟【南湾】租房', CurUserName)
+      pullMembersMore(msg, u'南湾租房', CurUserName)
       sleep(0.5)
     elif "2" in msgText and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟【东湾】租房', CurUserName)
+      pullMembersMore(msg, u'东湾租房', CurUserName)
       sleep(0.5)
     elif "3" in msgText and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟【三番】租房', CurUserName)
+      pullMembersMore(msg, u'三番租房', CurUserName)
       sleep(0.5)
     elif "4" in msgText and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟波士顿租房', CurUserName)
+      pullMembersMore(msg, u'波士顿租房', CurUserName)
       sleep(0.5)
     elif "5" in msgText and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟洛杉矶租房', CurUserName)
+      pullMembersMore(msg, u'洛杉矶租房', CurUserName)
       sleep(0.5)
     elif "6" in msgText and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟西雅图租房', CurUserName)
+      pullMembersMore(msg, u'西雅图租房', CurUserName)
       sleep(0.5)
     elif "7" in msgText and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟纽约租房', CurUserName)
+      pullMembersMore(msg, u'纽约', CurUserName)
       sleep(0.5)
     elif "8" in msgText and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟夏威夷短租', CurUserName)
+      pullMembersMore(msg, u'夏威夷短租', CurUserName)
       sleep(0.5)
     elif "9" in msgText and groupCount(CurUserName):
-      pullMembersMore(msg, u'九尾萌盟芝加哥', CurUserName)
+      pullMembersMore(msg, u'芝加哥', CurUserName)
       sleep(0.5)
     elif "10" in msgText:
       itchat.send_msg('正在加载请耐心等候...', CurUserName)
